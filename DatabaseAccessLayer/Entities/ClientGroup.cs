@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DatabaseAccessLayer.Entities
+﻿namespace DatabaseAccessLayer.Entities
 {
     public class ClientGroup
     {
@@ -13,8 +7,5 @@ namespace DatabaseAccessLayer.Entities
         public int ClientId { get; set; }
         public Group Group { get; set; }
         public int GroupId { get; set; }
-
-
-
     }
 }

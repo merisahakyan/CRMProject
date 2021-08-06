@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace DatabaseAccessLayer.Entities
 {
-    public class Group
+    public class Group : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime CreationDate { get; set; }
-
         public List<ClientGroup> Clients { get; set; }
-
+        
     }
 }
