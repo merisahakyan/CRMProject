@@ -19,6 +19,8 @@ namespace DatabaseAccessLayer.FluentApiConfig
             builder.Property(cg => cg.Id).IsRequired();
             builder.Property(cg => cg.ClientId).IsRequired();
             builder.Property(cg => cg.GroupId).IsRequired();
+            builder.Property(cg => cg.CreatedBy).IsRequired();
+            builder.Property(cg => cg.CreatedDate).IsRequired();
 
             builder.HasOne(cg => cg.Client)
                 .WithMany(c => c.Groups)

@@ -19,7 +19,7 @@ namespace DatabaseAccessLayer.FluentApiConfig
             builder.Property(e => e.Name).HasMaxLength(20).IsRequired();
             builder.Property(e => e.Body).HasMaxLength(4000).IsRequired();
             builder.Property(e => e.CreatedBy).IsRequired();
-            builder.Property(e => e.CreationDate).IsRequired();
+            builder.Property(e => e.CreatedDate).IsRequired();
         }
     }
 }
