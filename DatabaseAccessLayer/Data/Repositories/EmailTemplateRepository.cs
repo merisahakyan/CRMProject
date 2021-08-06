@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseAccessLayer.Data.Repositories
 {
-    public class EmailTemplateRepository : IEmailTemplate
+    public class EmailTemplateRepository : IEmailTemplateRepository
     {
         public Task<int> CreateEmailTemplateAsync(EmailTemplate emailTemplate)
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseAccessLayer.Data.Interfaces
 {
-    public interface IEmailTemplate
+    public interface IEmailTemplateRepository
     {
         Task<EmailTemplate> GetEmailTemplateIdAsync(int id);
         Task<List<EmailTemplate>> GetEmailTemplatesAsync();
