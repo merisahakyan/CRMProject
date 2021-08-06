@@ -15,7 +15,8 @@ namespace DatabaseAccessLayer.FluentApiConfig
             builder.Property(c => c.LastName).HasMaxLength(20).IsRequired();
             builder.Property(c => c.Email).HasMaxLength(30).IsRequired();
             builder.Property(c => c.PhoneNumber).HasMaxLength(9).IsRequired();
-            builder.Property(c => c.RegistrationDate).IsRequired();
+            builder.Property(c => c.CreatedBy).IsRequired();
+            builder.Property(c => c.CreatedDate).IsRequired();
 
 
            
