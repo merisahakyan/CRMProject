@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMProject", "CRMProject\CRMProject.csproj", "{07EFC177-38E2-4F54-8CBD-B5AC98301244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRMProject", "CRMProject\CRMProject.csproj", "{07EFC177-38E2-4F54-8CBD-B5AC98301244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAccessLayer", "DatabaseAccessLayer\DatabaseAccessLayer.csproj", "{D247A28C-E79A-4EC0-804B-FB0E5622D819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{F056E573-CFBF-4691-9EDB-E4E85DEB88F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{07EFC177-38E2-4F54-8CBD-B5AC98301244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07EFC177-38E2-4F54-8CBD-B5AC98301244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07EFC177-38E2-4F54-8CBD-B5AC98301244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D247A28C-E79A-4EC0-804B-FB0E5622D819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D247A28C-E79A-4EC0-804B-FB0E5622D819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D247A28C-E79A-4EC0-804B-FB0E5622D819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D247A28C-E79A-4EC0-804B-FB0E5622D819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F056E573-CFBF-4691-9EDB-E4E85DEB88F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F056E573-CFBF-4691-9EDB-E4E85DEB88F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F056E573-CFBF-4691-9EDB-E4E85DEB88F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F056E573-CFBF-4691-9EDB-E4E85DEB88F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
