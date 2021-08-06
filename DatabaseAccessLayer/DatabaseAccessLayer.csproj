@@ -5,10 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Interfaces\" />
     <Folder Include="Data\UnitOfWork\" />
-    <Folder Include="Data\Repositories\" />
-    <Folder Include="Entities\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.8" />
   </ItemGroup>
 
 </Project>
