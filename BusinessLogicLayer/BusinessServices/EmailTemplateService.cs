@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.BusinessServices
 {
-    public class EmailService
+    public class EmailTemplateService
     {
         
     }
